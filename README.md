@@ -28,6 +28,13 @@
 ### 📊 Minhas Métricas de Codificação (WakaTime)
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 12 July 2025 - To: 12 July 2025
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ---
