@@ -71,5 +71,9 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=JonasMacielWork&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JonasMacielWork/JonasMacielWork/output/pacman.svg" alt="Pac-Man eats my contributions" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JonasMacielWork/JonasMacielWork/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JonasMacielWork/JonasMacielWork/output/github-contribution-grid-snake.svg" />
+    <img alt="snake" src="https://raw.githubusercontent.com/JonasMacielWork/JonasMacielWork/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
