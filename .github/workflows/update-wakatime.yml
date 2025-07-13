@@ -9,7 +9,12 @@ jobs:
   update-readme:
     name: Update Readme with WakaTime Stats
     runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    
     steps:
+      - uses: actions/checkout@v4
+
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -17,3 +22,7 @@ jobs:
           SHOW_OS: "False"
           SHOW_PROJECTS: "False"
           SHOW_EDITORS: "False"
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update wakatime stats"
