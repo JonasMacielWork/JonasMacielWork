@@ -23,9 +23,11 @@
 ---
 
 ### ⚡ Minha Atividade Recente
+
 ---
 
 ### 📊 Minhas Métricas de Codificação (WakaTime)
+
 ---
 
 ### 💡 Sobre Mim & Minha Filosofia
