@@ -25,20 +25,6 @@
 ### ⚡ Minha Atividade Recente
 ---
 
-### 📊 Minhas Métricas de Codificação (WakaTime)
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 12 July 2025 - To: 13 July 2025
-
-Binary   16 mins         █████████████████████████   100.00 %
-```
-
-<!--END_SECTION:waka-->
-
----
-
 ### 💡 Sobre Mim & Minha Filosofia
 
 - **Minha Missão:** Desenvolver soluções robustas e de alta performance no ecossistema **.NET**, enquanto expando minhas habilidades em **Angular, React** e **Cloud Native**.
@@ -94,6 +80,22 @@ Binary   16 mins         ██████████████████�
     <img alt="snake" src="https://raw.githubusercontent.com/JonasMacielWork/JonasMacielWork/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
+
+---
+
+### 📊 Minhas Métricas de Codificação (WakaTime)
+
+<!--START_SECTION:waka-->
+
+```txt
+From: 12 July 2025 - To: 13 July 2025
+
+Binary   16 mins         █████████████████████████   100.00 %
+```
+
+<!--END_SECTION:waka-->
+
+---
 <p align="center">
   <img src="https://github-profile-3d-contrib.vercel.app/api?username=JonasMacielWork&theme=tokyo-night" alt="Contribution Graph 3D" />
 </p>
