@@ -1,0 +1,23 @@
+name: Generate Pacman Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-pacman:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate pacman animation
+        uses: ashutosh00710/github-readme-pacman@main
+        with:
+          github_user_name: JonasMacielWork
+          branch_name: output
+          commit_message: "chore: update pacman animation"
