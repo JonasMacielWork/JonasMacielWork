@@ -17,23 +17,13 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           user: JonasMacielWork
-          
           filename: pacman.svg
-          
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-          base: ""
-          
+          base: header 
           plugin_pacman: yes
-
       - name: Push pacman animation to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: .
-          
           pattern: pacman.svg
-          
           target_branch: output
-          
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
