@@ -22,6 +22,12 @@
 
 ---
 
+### ⚡ Minha Atividade Recente
+---
+
+### 📊 Minhas Métricas de Codificação (WakaTime)
+---
+
 ### 💡 Sobre Mim & Minha Filosofia
 
 - **Minha Missão:** Desenvolver soluções robustas e de alta performance no ecossistema **.NET**, enquanto expando minhas habilidades em **Angular, React** e **Cloud Native**.
@@ -76,4 +82,7 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JonasMacielWork/JonasMacielWork/output/github-contribution-grid-snake.svg" />
     <img alt="snake" src="https://raw.githubusercontent.com/JonasMacielWork/JonasMacielWork/output/github-contribution-grid-snake.svg" />
   </picture>
+</p>
+<p align="center">
+  <img src="https://github-profile-3d-contrib.vercel.app/api?username=JonasMacielWork&theme=tokyo-night" alt="Contribution Graph 3D" />
 </p>
