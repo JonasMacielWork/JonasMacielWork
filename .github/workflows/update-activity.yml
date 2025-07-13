@@ -6,11 +6,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-readme:
+    name: Update README with Recent Activity
     runs-on: ubuntu-latest
-    name: Update-readme-with-recent-activity
+
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README with recent GitHub activity
+        uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Show updated README content (debug)
+        run: |
+          echo "--- START of README.md ---"
+          cat README.md
+          echo "--- END of README.md ---"
