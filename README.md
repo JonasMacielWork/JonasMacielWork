@@ -26,6 +26,10 @@
 ---
 
 ### 📊 Minhas Métricas de Codificação (WakaTime)
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ---
 
 ### 💡 Sobre Mim & Minha Filosofia
