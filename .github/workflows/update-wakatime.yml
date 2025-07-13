@@ -1,25 +1,36 @@
-name: WakaTime Stats
+name: WakaTime Stats Debug
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Deixamos apenas o gatilho manual para facilitar os testes
 
 jobs:
   update-readme:
     name: Update Readme with WakaTime Stats
     runs-on: ubuntu-latest
-    
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GH_PAT }}
+      # Passo 1: Fazer o checkout do repositório
+      - name: Check out repository
+        uses: actions/checkout@v4
 
+      # Passo 2: Tentar atualizar o README com as estatísticas
       - name: Update README with WakaTime stats
         uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          # Forçando a busca em todo o histórico para garantir que haja dados
+          TIME_RANGE: "all_time" 
+          SHOW_TITLE: "true"
+
+      # --- PASSO DE DEPURAÇÃO CRÍTICO ---
+      # Imprime o conteúdo do README.md no log para vermos se foi modificado
+      - name: Display README.md content for debugging
+        run: |
+          echo "--- START of README.md ---"
+          cat README.md
+          echo "--- END of README.md ---"
+
+      # Passo 4: Fazer o commit se houver alterações
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
