@@ -9,12 +9,18 @@ jobs:
   update-readme:
     name: Update Readme with WakaTime Stats
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Update README with WakaTime stats
+        uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GH_PAT }}
-          BLOCKS: " -> ░▒▓█"
-          SHOW_TITLE: "true"
-          SHOW_TOTAL_CODE_TIME: "true"
-          LANG_COUNT: "8"
+          
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update wakatime stats"
