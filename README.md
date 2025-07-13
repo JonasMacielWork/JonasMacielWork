@@ -23,6 +23,9 @@
 ---
 
 ### ⚡ Minha Atividade Recente
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ---
 
 ### 💡 Sobre Mim & Minha Filosofia
