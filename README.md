@@ -24,6 +24,11 @@
 
 ### ⚡ Minha Atividade Recente
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#38](https://github.com/JonasMacielWork/SkillLearning/pull/38) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
+2. ❌ Reopened PR [#38](https://github.com/JonasMacielWork/SkillLearning/pull/38) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
+3. ❌ Closed PR [#38](https://github.com/JonasMacielWork/SkillLearning/pull/38) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
+4. 💪 Opened PR [#38](https://github.com/JonasMacielWork/SkillLearning/pull/38) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
+5. 🎉 Merged PR [#37](https://github.com/JonasMacielWork/SkillLearning/pull/37) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
 <!--END_SECTION:activity-->
 
 ---
