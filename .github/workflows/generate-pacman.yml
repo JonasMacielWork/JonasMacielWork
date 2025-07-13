@@ -13,23 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Create output directory
-        run: mkdir dist
-
       - name: Generate pacman SVG
         uses: lowlighter/metrics@latest
         with:
           user: JonasMacielWork
-          filename: dist/pacman.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: header 
+          filename: pacman.svg
+          committer_branch: output
+          committer_message: "chore: update pacman animation"
+          base: header
           plugin_pacman: yes
-
-      - name: Push pacman animation to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-          target_branch: output
-          commit_message: "chore: update pacman animation"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
