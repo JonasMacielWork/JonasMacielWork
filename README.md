@@ -101,9 +101,13 @@ Atualmente explorando as fronteiras entre <strong>Backend, Frontend, Cloud e Dev
 <!--START_SECTION:waka-->
 
 ```txt
-From: 12 July 2025 - To: 13 July 2025
+From: 12 July 2025 - To: 14 July 2025
 
-Binary   16 mins         █████████████████████████   100.00 %
+Binary       17 mins         █████████▒░░░░░░░░░░░░░░░   36.81 %
+Terraform    15 mins         ████████░░░░░░░░░░░░░░░░░   32.11 %
+TypeScript   5 mins          ███░░░░░░░░░░░░░░░░░░░░░░   12.42 %
+C#           3 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 %
+CSS          2 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.53 %
 ```
 
 <!--END_SECTION:waka-->
