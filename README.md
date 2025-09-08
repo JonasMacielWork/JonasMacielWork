@@ -29,8 +29,8 @@ Atualmente explorando as fronteiras entre <strong>Backend, Frontend, Cloud e Dev
 ### ⚡ Minha Atividade Recente
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#55](undefined) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
-2. 💪 Opened PR [#54](undefined) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
+1. 🎉 Merged PR [#55](https://github.com/JonasMacielWork/SkillLearning/pull/55) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
+2. 💪 Opened PR [#55](https://github.com/JonasMacielWork/SkillLearning/pull/55) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
 3. 🎉 Merged PR [#54](https://github.com/JonasMacielWork/SkillLearning/pull/54) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
 4. 💪 Opened PR [#54](https://github.com/JonasMacielWork/SkillLearning/pull/54) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
 5. 🎉 Merged PR [#53](https://github.com/JonasMacielWork/SkillLearning/pull/53) in [JonasMacielWork/SkillLearning](https://github.com/JonasMacielWork/SkillLearning)
